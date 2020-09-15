@@ -10,7 +10,7 @@
 </style>
 </head>
  <header class="header">
-  <a href="" class="logo"><img src="medias/logo_grun.svg" style="width: 161px; padding-top: 15px; padding-left: 15px;" ></a>
+  <a href="" class="logo"><img src="https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/logo_grun.svg" style="width: 161px; padding-top: 15px; padding-left: 15px;" ></a>
  
   <input class="menu-btn" type="checkbox" id="menu-btn" />
   <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
@@ -43,6 +43,29 @@ lore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
 </h1>
 </div>
 
-
+<script>
+            var character = 2;
+            var msg = "  –  simon3fus  –  Portfolio";
+            var currentTitle = document.title;
+            function counter() {
+              counter.timer = setInterval(function() {
+                document.title = msg.substring(character, msg.length) + msg.substring(0, character);
+                character++;
+                if( character > message.length){
+                  character = 0;
+                }
+              }, 500);
+            }
+            function stop() {
+              clearInterval(counter.timer);
+            }
+            window.onblur = function() {
+              counter();
+            };
+            window.onfocus = function() {
+              stop();
+              document.title = currentTitle;
+            };
+            </script>
 </body>
 </html>
