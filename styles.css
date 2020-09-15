@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-cursor: url(Medias/cursor.png), cell;
+cursor: url(https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.png), cell;
 }
 
 /* header */
