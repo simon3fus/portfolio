@@ -26,7 +26,8 @@ p {
 
 
 a {
-  color: #000;
+  color: #03CCA8;
+    text-decoration: none;
 }
 
 a:hover {
