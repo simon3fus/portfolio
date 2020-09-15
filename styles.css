@@ -5,9 +5,24 @@ body {
     margin-left: 0;
 }
     
-h1, p {
+h1, h2, p {
     color: #efefef;
 }
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+  font-size:   18px;
+    line-height: 1.4
+}
+
+
 
 
 a {
@@ -47,9 +62,8 @@ cursor: url(https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: #f7f7f7;
-
-    
 }
+    
 
 .header .logo {
     width: 175px;
@@ -132,14 +146,14 @@ text-align: right;
 
 
 .inhalt {
-    max-width: 1024px;
+    max-width: 900px;
     margin: auto;
     padding:50px;
     
 }
 
 .preview {
-    max-width: 1024px;
+    max-width: 900px;
     margin: auto;
     padding:50px;
 
