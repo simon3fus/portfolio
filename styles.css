@@ -130,16 +130,18 @@ text-align: right;
 .inhalt {
     max-width: 1024px;
     margin: auto;
-    padding:20px;
+    padding:50px;
     
 }
 
 .preview {
     max-width: 1024px;
     margin: auto;
-    padding:20px;
+    padding:50px;
 
 }
+
+
 
 
 
@@ -147,6 +149,20 @@ text-align: right;
 
 /* 48em = 768px */
 
+
+@media (max-width: 768px) {
+    .inhalt {
+     padding: 20px;}  
+    .preview {
+        padding: 20px;}
+}
+
+
+
+
+
+
+/* Das macht den Header mobile */
 
 
 @media (min-width: 768px) {
@@ -166,17 +182,7 @@ text-align: right;
   .header .menu-icon {
     display: none;
   }
-    .inhalt {
-     padding: 50px;
 
-    }  
-    
-    .preview {
-        padding: 50px;
-    }
-    
-    
-    
 }
 
 
