@@ -1,10 +1,14 @@
 body {
   margin-top: 200px;
   font-family: 'Chivo', sans-serif;
-    background-color: #f4f4f4; 
+    background-color: #2a2a2a; 
     margin-left: 0;
 }
     
+h1, p {
+    color: #efefef;
+}
+
 
 a {
   color: #000;
@@ -162,7 +166,7 @@ text-align: right;
 
 
 
-/* Das macht den Header mobile */
+/* Das macht den Header Desktop */
 
 
 @media (min-width: 768px) {
@@ -184,12 +188,5 @@ text-align: right;
   }
 
 }
-
-
-
-
-
-/* 48em = 768px */
-
 
 
