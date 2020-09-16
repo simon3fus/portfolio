@@ -1,9 +1,14 @@
+::-moz-selection { background: #454444; color: #03CCA8; }
+	::selection { background: #454444; color: #03CCA8; }
+
+
 body {
   margin-top: 20px;
   font-family: 'Chivo', sans-serif;
-    background-color: #fdfdfd; 
+    background-color: #fafafa; 
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 0;
    animation: fadein 0.1s;
     -moz-animation: fadein 0.1s; /* Firefox */
     -webkit-animation: fadein 0.1s; /* Safari and Chrome */
@@ -12,29 +17,32 @@ body {
 }
     
 h1, h2, p {
-    color: #313131;
+    color: #454444;
 }
 
 h1 {
     font-size: 50px;
-    color: #313131;
+    color: #454444;
+    margin-bottom: -20px;
 }
 
 h2 {
     font-size: 30px;
-    color: #313131;
+    color: #454444;
+    line-height: 1.5
 }
 
 h3 {
     font-size: 25px;
     line-height: 1.4;
-    color: #313131;
+    color: #454444;
+    margin-bottom: -10px;
 }
 
 p {
   font-size:   18px;
     line-height: 1.4;
-    color: #313131;
+    color: #454444;
 }
 
 
@@ -46,7 +54,7 @@ a {
 }
 
 a:hover {
-cursor: url(https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor2.png);
+cursor: url(https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.png);
 }
 
 /* header */
@@ -71,7 +79,7 @@ cursor: url(https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/
 .header li a {
   display: block;
   padding: 0px 0px;
-  border-right: 0px solid #f4f4f4;
+  border-right: 0px solid #ffffff;
   text-decoration: none;
 }
 
@@ -83,6 +91,7 @@ cursor: url(https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/
 
 .header .logo {
     width: 175px;
+    padding-left: 10px;
 }
 
 /* menu */
@@ -235,6 +244,7 @@ width: 100%;
     max-width: 800px;
     margin: auto;
     padding:50px;
+    padding-top: 150px;
     
 }
 
@@ -245,13 +255,34 @@ width: 100%;
 
 }
 
+.bilderline {
+    background: #ffffff;
+    width: 100%;
+    margin: auto;
+    object-fit: contain;
+}
+
+.bilderlineimg {
+object-fit: contain;
+    height: fill;
+    max-width: 1200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+
+    
+}
+
 
 .mailrund {
-    width: 320px;
+    width: 200px;
+    height: 200px;
     z-index: 3;
     position: fixed;
-    right: 50px;
-    bottom: -100px;
+    right: -30px;
+    top:150px;
     transform: translateX(200px) translateY(200px);
    animation: turntable 30s linear infinite reverse;
 
@@ -271,6 +302,24 @@ width: 100%;
     opacity: 0.2;
 
 }
+
+
+
+
+
+
+.abstand {
+    padding:50px;
+}
+
+
+
+
+
+
+
+
+
 
 @keyframes turntable {
   0%   {transform: rotate(0deg);}
@@ -344,15 +393,18 @@ width: 100%;
     
     .mailrund {
         width: 150px;
-        right 50px;
-        bottom: 25px;
+        height: 150px;
+        right 0px;
+        top: 450px;
     }
     
     .pass {
         padding-top: 0px;
     }
     
-    
+    .bilderlineimg {
+        
+    }
     
 }
 
