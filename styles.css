@@ -4,6 +4,11 @@ body {
     background-color: #2a2a2a; 
     margin-left: 0;
     margin-right: 0;
+   animation: fadein 0.1s;
+    -moz-animation: fadein 0.1s; /* Firefox */
+    -webkit-animation: fadein 0.1s; /* Safari and Chrome */
+    -o-animation: fadein 0.1s; /* Opera */
+}
 }
     
 h1, h2, p {
@@ -12,10 +17,12 @@ h1, h2, p {
 
 h1 {
     font-size: 50px;
+    color: #efefef;
 }
 
 h2 {
     font-size: 30px;
+    color: #efefef;
 }
 
 h3 {
@@ -27,6 +34,7 @@ h3 {
 p {
   font-size:   18px;
     line-height: 1.4;
+    color: #efefef;
 }
 
 
@@ -45,7 +53,7 @@ cursor: url(https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/
 
 .header {
   background-color: #fff;
- /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); 
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -171,7 +179,7 @@ text-align: right;
 .column {
   float: left;
     width: 50%;
-  height: 800px;
+  height: 1200px;
         padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
@@ -199,7 +207,7 @@ width: 100%;
 
 
 .row {
-    max-width: 1300px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -216,7 +224,7 @@ width: 100%;
 
 .keyvisual {
     height: fill;
-    max-width: 1300px;
+    max-width: 1200px;
     object-fit: contain;
     margin: auto;
 }
@@ -238,7 +246,7 @@ width: 100%;
 
 
 .mailrund {
-    width: 450px;
+    width: 400px;
     z-index: 3;
     position: fixed;
     left: -100px;
@@ -264,7 +272,38 @@ width: 100%;
     animation: turntable 2s linear infinite;
 }
 
-
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 
 
