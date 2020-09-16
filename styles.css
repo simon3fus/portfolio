@@ -1,8 +1,9 @@
 body {
-  margin-top: 200px;
+  margin-top: 20px;
   font-family: 'Chivo', sans-serif;
     background-color: #2a2a2a; 
     margin-left: 0;
+    margin-right: 0;
 }
     
 h1, h2, p {
@@ -19,12 +20,13 @@ h2 {
 
 h3 {
     font-size: 25px;
+    line-height: 1.4;
     color: #efefef;
 }
 
 p {
   font-size:   18px;
-    line-height: 1.4
+    line-height: 1.4;
 }
 
 
@@ -82,6 +84,7 @@ cursor: url(https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/
   max-height: 0;
   transition: max-height .2s ease-out;
 text-align: right;
+
 }
 
 /* menu icon */
@@ -151,27 +154,118 @@ text-align: right;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+    width: 50%;
+  height: 800px;
+        padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+}
+
+.column left {
+
+}
+
+.column right {
+  overflow: hidden;
+
+}
+.portrait {
+    overflow: hidden;
+padding-top: 20px;
+}
+
+.portrait img {
+    overflow: hidden;
+width: 100%;
+}
+
+
+.row {
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.keyvisual {
+    height: fill;
+    max-width: 1300px;
+    object-fit: contain;
+    margin: auto;
+}
+
+
 .inhalt {
-    max-width: 900px;
+    max-width: 800px;
     margin: auto;
     padding:50px;
     
 }
 
 .preview {
-    max-width: 900px;
+    max-width: 800px;
     margin: auto;
     padding:50px;
 
 }
 
 
+.mailrund {
+    width: 450px;
+    z-index: 3;
+    position: fixed;
+    left: -100px;
+    bottom: -100px;
+    transform: translateX(200px) translateY(200px);
+   animation: turntable 30s linear infinite reverse;
+
+}
 
 
 
+@keyframes turntable {
+  0%   {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
 
 
-/* 48em = 768px */
+.turn1 {
+    animation: turntable 13s linear infinite reverse;
+}
+
+.turn2 {
+    animation: turntable 2s linear infinite;
+}
+
+
+
 
 
 @media (max-width: 768px) {
@@ -179,9 +273,32 @@ text-align: right;
      padding: 20px;}  
     .preview {
         padding: 20px;}
+    header .menu {
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+    .header li a {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        font-size: 20px;
+    }
+     .column {
+    width: 100%;
+         height: 600px;
+         padding: 20px;
+  }
+    
+    .mailrund {
+        width: 150px;
+        left: 25px;
+        bottom: 25px;
+    }
+    
+    
+    
+    
 }
-
-
 
 
 
