@@ -46,8 +46,6 @@ p {
 }
 
 
-
-
 a {
   color: #03CCA8;
     text-decoration: none;
@@ -219,6 +217,7 @@ width: 100%;
 .row {
     max-width: 1700px;
     margin: auto;
+    padding-top: 50px;
 }
 
 
@@ -281,8 +280,8 @@ object-fit: contain;
     height: 200px;
     z-index: 3;
     position: fixed;
-    right: -30px;
-    top:150px;
+    right: 20px;
+    bottom: 20px;
     transform: translateX(200px) translateY(200px);
    animation: turntable 30s linear infinite reverse;
 
@@ -371,8 +370,13 @@ object-fit: contain;
 
 
 @media (max-width: 768px) {
+    
+
+    
     .inhalt {
-     padding: 20px;}  
+     padding: 20px;
+    padding-top: 50px;
+    }  
     .preview {
         padding: 20px;}
     header .menu {
@@ -394,8 +398,8 @@ object-fit: contain;
     .mailrund {
         width: 150px;
         height: 150px;
-        right 0px;
-        top: 450px;
+        right 20px;
+        bottom: 20px;
     }
     
     .pass {
@@ -403,8 +407,18 @@ object-fit: contain;
     }
     
     .bilderlineimg {
-        
+        padding: 0px;
     }
+     
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+
+    
+    
     
 }
 
