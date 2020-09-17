@@ -9,6 +9,7 @@ body {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
+    padding-bottom: 0;
    animation: fadein 0.1s;
     -moz-animation: fadein 0.1s; /* Firefox */
     -webkit-animation: fadein 0.1s; /* Safari and Chrome */
@@ -52,8 +53,18 @@ a {
 }
 
 a:hover {
-cursor: url(https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.png);
-}
+/*cursor: url(https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor_klein.svg), pointer; */
+    
+     cursor: url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/pfeil.svg") 0 0, pointer, auto; /* Legacy */
+    cursor: url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/pfeil.svg") 0 0, pointer; /* FF */
+    cursor: -webkit-image-set(url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/pfeil.svg") 1x, url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/pfeil.svg") 2x) 0 0, pointer; /* Webkit */
+    
+    
+    text-decoration: underline;
+} 
+
+/*(https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.png*/
+
 
 /* header */
 
@@ -89,7 +100,7 @@ cursor: url(https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/
 
 .header .logo {
     width: 175px;
-    padding-left: 10px;
+    padding-left: 6px;
 }
 
 /* menu */
@@ -186,8 +197,8 @@ text-align: right;
 .column {
   float: left;
     width: 50%;
-  height: 1200px;
-        padding-top: 50px;
+    height: 600px;
+    padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -254,6 +265,21 @@ width: 100%;
 
 }
 
+
+
+.link {
+    width: 70%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link:hover {
+    fill: #000;
+    
+}
+
+
 .bilderline {
     background: #ffffff;
     width: 100%;
@@ -269,10 +295,18 @@ object-fit: contain;
     padding-bottom: 50px;
     padding-left: 30px;
     padding-right: 30px;
-   
-
-    
 }
+
+.next {
+    background-color: #454444;
+    padding: 150px;
+}
+.next h1 {
+    color: #03CCA8;
+    text-align: center;
+    margin-top: 0px;
+}
+
 
 
 .mailrund {
@@ -286,12 +320,16 @@ object-fit: contain;
    animation: turntable 30s linear infinite reverse;
 
 }
+.mailrund a:hover {
+    fill: #000;
+}
 
 
 .pass {
     width: 100%;
     overflow: hidden;
     margin-top: -50px;
+    padding-bottom: 0;
 }
 
 .pass img {
@@ -299,6 +337,7 @@ object-fit: contain;
     overflow: hidden;
     mix-blend-mode: multiply;
     opacity: 0.2;
+    padding-bottom: 0;
 
 }
 
@@ -383,9 +422,21 @@ object-fit: contain;
         padding-top: 0px;
         padding-right: 0px;
     }
+    
+    .link {
+    width: 80%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+    }
+    
+    
+
+    
     .header li a {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         text-align: center;
         font-size: 20px;
     }
@@ -408,8 +459,25 @@ object-fit: contain;
     
     .bilderlineimg {
         padding: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
      
+    
+    
+.column {
+  
+  height: 300px;
+        
+}
+    
+    
+    
+    
+    
+    
+    
+    
     h1 {
         font-size: 30px;
     }
