@@ -291,23 +291,39 @@ width: 100%;
 object-fit: contain;
     height: fill;
     max-width: 1200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     padding-left: 30px;
     padding-right: 30px;
 }
 
 .next {
     background-color: #454444;
-    padding: 150px;
+    height: 350px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .next h1 {
     color: #03CCA8;
-    text-align: center;
     margin-top: 0px;
 }
 
+.nextl {
+    float: left;
+    width: auto;
+}
 
+.nextl h1 {
+        font-size: 50px;
+    }
+    
+
+.nextr {
+    float: right;
+    width: auto;
+}
 
 .mailrund {
     width: 200px;
@@ -471,8 +487,30 @@ display: block;
         
 }
     
+
+    .next {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        height: 350px;
+    }
+    
+    .nextl {
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+    
+    .nextl h1 {
+        font-size: 20px;
+    }
     
     
+    .nextr {
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        padding-bottom: 150px;
+    }
     
     
     
