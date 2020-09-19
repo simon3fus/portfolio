@@ -197,7 +197,7 @@ text-align: right;
 .column {
   float: left;
     width: 50%;
-    height: 600px;
+    height: auto;
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
@@ -206,6 +206,8 @@ text-align: right;
 }
 
 .column left {
+    height: 300px;
+display: block;
 
 }
 
@@ -256,6 +258,46 @@ width: 100%;
     padding:50px;
     padding-top: 150px;
     
+}
+
+.Leistungen {
+    width: 50%;
+    float: left;
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+.Leistungen h3 {
+    color: #4d4d4d;
+}
+.Leistungen ul {
+    color:#4d4d4d;
+}
+.Services {
+    width: 50%;
+    float: left;
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+
+.Services h3 {
+    color: #4d4d4d;
+}
+.Services ul {
+    color:#4d4d4d;
+}
+
+   .comment {
+        width: 100%;
+        float: left;
+       padding-left: 30px;
+       padding-top: 30px;
+       padding-bottom: 30px;
+       background-color: #f0f0f0;
+       margin-top: 0px;
+    margin-bottom: 45px;
+    }
+.comment h4 {
+    color:  #4d4d4d;
 }
 
 .preview {
@@ -434,6 +476,19 @@ object-fit: contain;
     }  
     .preview {
         padding: 20px;}
+    
+    .Leistungen {
+        width: 100%;
+    }
+    
+    .Services  {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+ 
+    
     header .menu {
         padding-top: 0px;
         padding-right: 0px;
@@ -458,9 +513,10 @@ display: block;
     }
      .column {
     width: 100%;
-         height: 600px;
+         height: 100%;
          padding: 20px;
   }
+        
     
     .mailrund {
         width: 150px;
@@ -486,7 +542,7 @@ display: block;
   height: 300px;
         
 }
-    
+
 
     .next {
         padding-top: 80px;
