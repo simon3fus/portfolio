@@ -292,6 +292,10 @@ width: 100%;
     padding-top: 0px;
     
 }
+.inhalt h3 {
+    font-size: 25px;
+    color: #03CCA8;
+}
 
 .Leistungen {
     width: 50%;
@@ -422,7 +426,7 @@ object-fit: contain;
 .pass {
     width: 100%;
     overflow: hidden;
-    margin-top: -50px;
+    margin-top: 0px;
     padding-bottom: 0;
 }
 
