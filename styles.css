@@ -237,7 +237,7 @@ text-align: right;
 }
 
 .column left {
-    height: 300px;
+    height: 600px;
 display: block;
 
 }
@@ -253,7 +253,6 @@ padding-top: 0px;
 
 .portrait img {
     overflow: hidden;
-    object-fit: fill;
 width: 100%;
 }
 
@@ -598,15 +597,15 @@ display: block;
     }
      .column {
     width: 100%;
-         height: px;
          padding: 20px;
+         margin-bottom: 80px;
   }
-
     .column left {
-    height: 600px;
-display: block;
-    }    
+        height: 600px;
+    }
+
     
+
     .mailrund {
         width: 150px;
         height: 150px;
