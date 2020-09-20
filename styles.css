@@ -183,10 +183,35 @@ text-align: right;
 
 
 
+/* Grid portfolio */
 
+.g {
+  		    padding-left: 10px;
+            padding-right: 10px;
+			overflow: hidden;
+            max-width: 1200px;
+            margin: auto;
+            list-style: none;
+		}
+		.g li {
+			float: left;
+			width: 50%;
+			padding: 10px;
+            
+		}
+		.g img {
+			display: cover;
+            width: 100%;
+            height: 100%;
+		}
 
-
-
+.g img:hover { 
+    opacity: 0.1;
+     transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+}
 
 
 
@@ -514,10 +539,13 @@ object-fit: contain;
     .Services  {
     width: 100%;
     float: left;
-    padding: 10px;
     background-color: #f4f4f4;
 }
  
+    .g li {
+			width: 100%;
+    }
+
     
     .titelicon {
         margin: 0;
