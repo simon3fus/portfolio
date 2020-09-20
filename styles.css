@@ -3,7 +3,8 @@
 
 
 body {
-  margin-top: 20px;
+  margin-top: 0px;
+    padding-top: 50px;
   font-family: 'Chivo', sans-serif;
     background-color: #fafafa; 
     margin-left: 0;
@@ -15,8 +16,7 @@ body {
     -webkit-animation: fadein 0.1s; /* Safari and Chrome */
     -o-animation: fadein 0.1s; /* Opera */
 }
-}
-    
+
 h1, h2, p {
     color: #454444;
 }
@@ -185,11 +185,14 @@ text-align: right;
 
 /* Grid portfolio */
 
+
+
 .g {
-  		    padding-left: 10px;
+    padding-top:30px;
+    padding-left: 10px;
             padding-right: 10px;
 			overflow: hidden;
-            max-width: 1200px;
+            max-width: 1700px;
             margin: auto;
             list-style: none;
 		}
@@ -212,9 +215,12 @@ text-align: right;
   -webkit-transition: opacity .2s ease-out;
   -o-transition: opacity .2s ease-out;
 }
-
-
-
+.gh1 {
+    padding-top: 50px;
+    padding-left: 20px;
+    max-width: 800px;
+    margin: auto;
+}
 
 * {
   box-sizing: border-box;
@@ -223,7 +229,7 @@ text-align: right;
   float: left;
     width: 50%;
     height: auto;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -242,7 +248,7 @@ display: block;
 }
 .portrait {
     overflow: hidden;
-padding-top: 20px;
+padding-top: 0px;
 }
 
 .portrait img {
@@ -255,7 +261,7 @@ width: 100%;
 .row {
     max-width: 1700px;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 
@@ -274,14 +280,16 @@ width: 100%;
     max-width: 1200px;
     object-fit: contain;
     margin: auto;
+    padding-top: 0px;
 }
 
 
 .inhalt {
     max-width: 800px;
     margin: auto;
-    padding:50px;
-    padding-top: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
     
 }
 
@@ -493,6 +501,10 @@ object-fit: contain;
 }
 
 
+
+
+
+/* NEXT  */
 @media (max-width: 900px) {
     
         .next {
@@ -521,13 +533,19 @@ object-fit: contain;
     
 }
 
+
+
+
+
+
+
 @media (max-width: 768px) {
     
 
     
     .inhalt {
      padding: 20px;
-    padding-top: 50px;
+    padding-top: 0px;
     }  
     .preview {
         padding: 20px;}
