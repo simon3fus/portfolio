@@ -1,7 +1,20 @@
-/* html {
+
+/* selektiosfarbe */
+
+::selection {
+    background: #000;
+    color: #03CCA8;
+}
+::-moz-selection {
+    background: #000;
+    color: #03CCA8;
+}
+
+
+html {
   cursor: url('https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.svg'), default;
 }
- */
+
 
 body {
   margin-top: 0px;
