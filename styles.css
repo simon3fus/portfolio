@@ -1,6 +1,7 @@
-::-moz-selection { background: #454444; color: #03CCA8; }
-	::selection { background: #454444; color: #03CCA8; }
-
+/* html {
+  cursor: url('https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.svg'), default;
+}
+ */
 
 body {
   margin-top: 0px;
@@ -53,11 +54,13 @@ a {
 }
 
 a:hover {
-/*cursor: url(https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor_klein.svg), pointer; */
+
     
-     cursor: url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/pfeil.svg") 0 0, pointer, auto; /* Legacy */
-    cursor: url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/pfeil.svg") 0 0, pointer, auto; /* FF */
-    cursor: -webkit-image-set(url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/pfeil.svg") 1x, url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/pfeil.svg") 2x) 0 0, pointer, auto; /* Webkit */
+    cursor: url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.svg") 0 0, default; 
+
+    cursor: url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.svg") 0 0, default; 
+
+    cursor: -webkit-image-set(url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.svg") 1x, url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.svg") 2x) 0 0, default;
     
     
     text-decoration: underline;
