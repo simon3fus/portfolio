@@ -68,9 +68,9 @@ a {
 
 /* custom cursor */
 
-html {
+/* html {
   cursor: url('https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor_green.svg'), default;
-}
+} */
 
 a:hover {
     cursor: url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.svg") 0 0, default; 
@@ -306,6 +306,9 @@ width: 100%;
     padding-top: 0px;
     
 }
+
+
+
 .inhalt h3 {
     font-size: 25px;
     color: #03CCA8;
@@ -577,6 +580,9 @@ object-fit: contain;
      padding: 20px;
     padding-top: 0px;
     }  
+    
+
+    
     .preview {
         padding: 20px;}
     
