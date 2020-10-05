@@ -286,7 +286,72 @@ width: 100%;
 
 
 
+.black {
+    z-index: 0;
+    background-color: #454444;
+    width: 100%;
+    height: inherit;
+    padding: 50px;
+    padding-bottom: 200px;
+    margin-top: 100px;
+    position: static;
+    
+    background-image: url(https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/kleis_trans.svg); background-repeat: no-repeat;
+      background-attachment: fixed;
+    background-position: 50% 80%;
 
+}
+
+
+.brows {
+    max-width: 1200px;
+    margin: auto;
+    background-color: none;
+}
+
+.brows h4 {
+    color: white;
+    font-size: 20px;
+    padding-top: 0px;
+    margin-top: 15px;
+}
+.brows p {
+    color: white;
+    padding-top: 200px;
+    font-size: 14px;
+}
+
+.b1 {
+    float: left;
+    width: 33.3%;
+}
+.b2 {
+    float: left;
+    width: 33.3%;
+}
+.b3 {
+    float: left;
+    width: 33.3%;
+}
+.b4 {
+    float: left;
+    width: 50%;
+}
+.b5 {
+    float: right;
+    width: 50%;
+}
+
+.homebild {   
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.homebild img {
+    width: 100%;
+}
 
 
 .keyvisual {
@@ -455,6 +520,20 @@ object-fit: contain;
     fill: #000;
 }
 
+
+.portfoliorund {
+    width: ;
+    height: ;
+    z-index: 3;
+    position: fixed;
+    right: -30px;
+    bottom: -60px;
+    transform: translateX(10px) translateY(10px);
+   animation: turntable 30s linear infinite reverse;
+}
+.portfoliorund img {
+    width: 250px;
+}
 
 .pass {
     width: 100%;
@@ -646,6 +725,14 @@ display: block;
         bottom: 20px;
     }
     
+    
+    
+.portfoliorund img {
+    width: 200px;
+    right: -50px;
+    bottom: 30px;
+    }
+    
     .pass {
         padding-top: 0px;
     }
@@ -664,11 +751,21 @@ display: block;
         
 }
 
-
-
+    .b1{ 
+        width: 100%;}
+    .b2{width: 100%;}
+       .b3{width: 100%;} 
+        .b4{width: 100%;}
+        .b5{width: 100%;}
     
+    .brows p {
+        padding-top: 100px;}
     
-    
+    .brows h4 {
+        line-height: 13px;
+    font-size: 20px;
+    padding-top: 0px;
+        margin-top: 0px;}
     
     
     h1 {
