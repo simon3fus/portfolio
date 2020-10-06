@@ -281,7 +281,11 @@ width: 100%;
 
 
 
-
+.blacktitel {
+    font-weight: 700;
+    color: #03CCA8;
+    font-size: 120px;
+}
 
 
 
@@ -351,6 +355,34 @@ width: 100%;
 }
 .homebild img {
     width: 100%;
+}
+
+
+.hometeaser {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+
+.Homerow1 {
+    width: 50%;
+    float: left;
+}
+
+.hometeaser img {
+  width: 100%;
+}
+
+.zum {
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.zum h1 {
+    text-align: center;
+    color: #03CCA8;
 }
 
 
@@ -751,6 +783,16 @@ display: block;
         
 }
 
+    
+    .blacktitel {
+        font-size: 50px;
+    }
+    
+    .zum {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+    
     .b1{ 
         width: 100%;}
     .b2{width: 100%;}
