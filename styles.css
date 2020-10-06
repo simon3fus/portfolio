@@ -325,6 +325,20 @@ width: 100%;
     font-size: 14px;
 }
 
+.pwhite {
+    max-width: 800px;
+    margin: auto;
+}
+
+.pwhite p{
+    color: white;
+}
+
+.pwhite h1{
+    color: white;
+    padding-top: 30px;
+}
+
 .b1 {
     float: left;
     width: 33.3%;
@@ -379,12 +393,16 @@ width: 100%;
 .zum {
     padding-top: 50px;
     padding-bottom: 90px;
+    background-color: #03CCA8;
 }
 .zum h1 {
     text-align: center;
-    color: #03CCA8;
+    color: #454444;
 }
 
+.zum h1:hover {
+    text-decoration: underline;
+}
 
 .keyvisual {
     height: fill;
@@ -686,6 +704,10 @@ object-fit: contain;
 @media (max-width: 768px) {
     
 
+    
+    .video {
+        width: 100%;
+    }    
     
     .inhalt {
      padding: 20px;
