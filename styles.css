@@ -291,15 +291,13 @@ width: 100%;
 
 
 .black {
+    overflow: auto;
+    height: auto;
     z-index: 0;
     background-color: #454444;
-    width: 100%;
-    height: inherit;
     padding: 50px;
     padding-bottom: 200px;
     margin-top: 100px;
-    position: static;
-    
     background-image: url(https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/kleis_trans.svg); background-repeat: no-repeat;
       background-attachment: fixed;
     background-position: 50% 80%;
@@ -321,7 +319,8 @@ width: 100%;
 }
 .brows p {
     color: white;
-    padding-top: 200px;
+    padding-top: 0px;
+    margin-top: 250px;
     font-size: 14px;
 }
 
@@ -341,15 +340,15 @@ width: 100%;
 
 .b1 {
     float: left;
-    width: 33.3%;
+    width: 33.33%;
 }
 .b2 {
     float: left;
-    width: 33.3%;
+    width: 33.33%;
 }
 .b3 {
     float: left;
-    width: 33.3%;
+    width: 33.33%;
 }
 .b4 {
     float: left;
@@ -358,6 +357,10 @@ width: 100%;
 .b5 {
     float: right;
     width: 50%;
+}
+
+.fuckthis {
+    float: left;
 }
 
 .homebild {   
@@ -389,7 +392,7 @@ width: 100%;
 .hometeaser img {
   width: 100%;
 }
-
+ 
 .zum {
     padding-top: 50px;
     padding-bottom: 90px;
@@ -572,17 +575,18 @@ object-fit: contain;
 
 
 .portfoliorund {
-    width: ;
-    height: ;
+    width: 200px;
+    height: 200px;
     z-index: 3;
     position: fixed;
-    right: -30px;
-    bottom: -60px;
-    transform: translateX(10px) translateY(10px);
+    right: 30px;
+    bottom: 30px;
+    transform: translateX(200px) translateY(200px);
    animation: turntable 30s linear infinite reverse;
 }
+
 .portfoliorund img {
-    width: 250px;
+    width: px;
 }
 
 .pass {
@@ -781,10 +785,9 @@ display: block;
     
     
     
-.portfoliorund img {
-    width: 200px;
-    right: -50px;
-    bottom: 30px;
+.portfoliorund {
+    width: 150px;
+    height: 150px;
     }
     
     .pass {
@@ -811,7 +814,7 @@ display: block;
     }
     
     .zum {
-        padding-top: 100px;
+        padding-top: 150px;
         padding-bottom: 150px;
     }
     
@@ -823,7 +826,7 @@ display: block;
         .b5{width: 100%;}
     
     .brows p {
-        padding-top: 100px;}
+        margin-top: 80px;}
     
     .brows h4 {
         line-height: 13px;
