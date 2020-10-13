@@ -227,9 +227,128 @@ div#slider figure {
 
 
 
+/* Portfolio Hoverstyle */
+
+.portfolio-hover-wrapper {
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
 
 
-/* Grid portfolio */
+
+
+
+.portfolio-hover-text {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    
+}
+
+
+.portfolio-hover-text h1 {
+    color: #03CCA8;
+}
+
+
+
+.portfolio-hover-bilder {
+    background-color: #454444;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.portfolio-hover-bilder-1 {
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+ background:url('https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/praxamed/PXM_preview.jpg') center;
+background-size: cover;
+    opacity: 0.1;
+    
+}
+
+
+
+
+/* Grid portfolio neu */
+
+
+
+
+.grid-wrapper {
+    padding-top: 30px;
+    overflow: auto;
+    max-width: 1400px;
+    margin: auto;
+    padding-right: 20px;    
+}
+
+.grid-bild {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 500px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.grid-bild-background {
+ background:url('https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/praxamed/PXM_preview.jpg') no-repeat center;
+    height: 500px;
+    opacity: 0.1;
+}
+
+
+
+
+.galerie-hover-box {
+    text-align: center;
+    position: absolute;
+    padding-left: 40px;
+    opacity: 1;
+    
+}
+
+
+.galerie-hover-box h1 {
+    color: #03CCA8;
+}
+
+
+
+
+.grid-bild-background:hover {
+    opacity: 1;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Grid portfolio alt */
 
 
 
@@ -769,20 +888,25 @@ object-fit: contain;
 
 
 
-   
-
-
-
 @media (max-width: 768px) {
     
+    .aboutmobile {
+    visibility: visible;
+    padding: 20px;
+    }
+    
+    .aboutdesktop {
+    visibility: hidden;
+    display: none;
+    }
 
     
     .video {
-        width: 100%;
+    width: 100%;
     }    
     
     .inhalt {
-     padding: 20px;
+    padding: 20px;
     padding-top: 0px;
     }  
     
@@ -905,15 +1029,7 @@ display: block;
         margin-top: 0px;}
     
     
-.aboutmobile {
-    visibility: visible;
-    padding: 20px;
-    }
-    
-    .aboutdesktop {
-        visibility: hidden;
-            display: none;
-    }
+
     
     .portrait {
         float: 
@@ -935,9 +1051,57 @@ display: block;
     
     
     
+
+
+
+
+/* Grid portfolio neu */
+
+
+.grid-wrapper {
+    padding-top: 30px;
+    overflow: auto;
+    max-width: 1400px;
+    margin: auto;
+    padding-right: 20px;    
+}
+
+.grid-bild {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 500px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.grid-bild-background {
+ background:url('https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/praxamed/PXM_preview.jpg') no-repeat center;
+    opacity: 1;
 }
 
 
+
+
+.galerie-hover-box {
+    text-align: center;
+    padding-left: 20px;
+    opacity: 0;
+    
+}
+
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+}
 
 
 /* Das macht den Header Desktop */
@@ -964,7 +1128,13 @@ display: block;
 }
 
 
-/* portfolio ganz gross */
+
+
+
+
+
+
+/* portfolio ganz gross alt */
 
 @media (min-width: 1921px) {
  
