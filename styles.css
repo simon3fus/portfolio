@@ -17,7 +17,7 @@ body {
   margin-top: 0px;
     padding-top: 50px;
 font-family: 'Rubik', sans-serif;    
-    background-color: #fafafa; 
+    background-color: #ffffff; 
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
@@ -501,12 +501,12 @@ display: block;
 
 }
 .portrait {
-    overflow: hidden;
+overflow: hidden;
 padding-top: 0px;
 }
 
 .portrait img {
-    overflow: hidden;
+overflow: hidden;
 width: 100%;
 }
 
@@ -531,14 +531,14 @@ width: 100%;
 
 
 .blacktitel {
-    width: 100%;
-    font-weight: 700;
-    color: #8bd1c5;
-    font-size: 200px;
-    height: 85vh;
-    display: table-cell;
-  vertical-align: middle;
-    margin-top: -50px;
+    padding-top: -50px;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.blacktitel img {
+width: 100%;
+    height: 100%;
 }
 
 
@@ -563,7 +563,7 @@ width: 100%;
     background-color: #454444;
     padding: 50px;
     padding-bottom: 200px;
-    padding-top: 100px;
+    padding-top: 1px;
     background-image: url(https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/kleis_trans.svg); background-repeat: no-repeat;
       background-attachment: fixed;
     background-position: 50% 90%;
@@ -768,14 +768,17 @@ width: 100%;
 
 
 .link {
-    width: 70%;
+    width: 50%;
     display: block;
-  margin-left: auto;
   margin-right: auto;
+    padding-bottom: 30px;
 }
 
 .link:hover {
-    fill: #000;
+        
+    opacity: 0.7;
+        
+    }
     
 }
 
@@ -802,10 +805,22 @@ object-fit: contain;
     padding-bottom: 70px;
     padding-left: 30px;
     padding-right: 30px;
-
 }
+
+
+.bilderlineimgtext {
+    opacity: 0.5;
+}
+
+
 .video {
     margin: auto;
+}
+
+.video1 {
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .next {
@@ -951,6 +966,8 @@ object-fit: contain;
 
 
 
+
+
 /* NEXT  */
 @media (max-width: 900px) {
     
@@ -1001,7 +1018,8 @@ object-fit: contain;
 
     
     .video {
-    width: 100%;
+    visibility: hidden;
+    display: none;
     }    
     
     .inhalt {
@@ -1013,6 +1031,10 @@ object-fit: contain;
     
     .preview {
         padding: 20px;}
+    
+    .preview h1 {
+        padding-bottom: 20px;
+    }
     
     .Leistungen {
         width: 100%;
@@ -1040,13 +1062,12 @@ object-fit: contain;
     }
     
     .link {
-    width: 80%;
+    width: 300px;
 display: block;
-  margin-left: auto;
   margin-right: auto;
-    
     }
     
+
     
 
     
@@ -1111,6 +1132,8 @@ display: block;
     
     .blacktitel {
         font-size: 50px;
+
+        
     }
     
     .zum {
