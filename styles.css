@@ -77,9 +77,9 @@ a {
 } */
 
 a:hover {
+    cursor: url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.svg") 0 0, default;
     cursor: url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.svg") 0 0, default; 
-    cursor: url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.svg") 0 0, default; 
-    cursor: -webkit-image-set(url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.svg") 1x, url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.svg") 2x) 0 0, default;
+    cursor: -webkit-image-set(url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.svg") 1x, url("https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.svg") 2x) 0 0, default; 
     
     text-decoration: underline;
 } 
