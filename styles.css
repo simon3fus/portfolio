@@ -528,7 +528,10 @@ width: 100%;
 
 }
 
-
+.blacktitelmobile {
+    visibility: hidden;
+    display: none;
+}
 
 .blacktitel {
     padding-top: -50px;
@@ -1125,16 +1128,25 @@ display: block;
 }
 
     .black {
-        padding:20px;
+        margin-top: -70px;
+        padding-top: 0px;
+        padding-left:20px;
+        padding-right: 20px;
         background-position: 50% 80%;
     }
     
     
     .blacktitel {
-        font-size: 50px;
-
-        
+        visibility: hidden;
+        display: none;
     }
+    
+    .blacktitelmobile {
+        visibility: visible;
+        display: block;
+        padding-top: -50px;
+    }
+    
     
     .zum {
         padding-top: 150px;
