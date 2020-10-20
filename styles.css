@@ -3158,7 +3158,7 @@ home SVG animation Desktop
           animation: animate-svg-fill-84 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 9.100000000000001s both;
 }
 
-@-webkit-keyframes animate-svg-fill-85 {
+@-webkit-keyframes herz {
   0% {
     fill: transparent;
   }
@@ -3168,7 +3168,7 @@ home SVG animation Desktop
   }
 }
 
-@keyframes animate-svg-fill-85 {
+@keyframes herz {
   0% {
     fill: transparent;
   }
@@ -3178,9 +3178,9 @@ home SVG animation Desktop
   }
 }
 
-.svg-elem-85 {
-  -webkit-animation: animate-svg-fill-85 1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.5s both;
-          animation: animate-svg-fill-85 1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.5s both;
+.herz{
+  -webkit-animation: herz 1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.5s both;
+          animation: herz 1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.5s both;
 }
 
 
@@ -5509,6 +5509,14 @@ home SVG animation Mobile
     visibility: hidden;
     display: none;
     }    
+    
+    
+    
+    .video1 {
+           visibility: hidden;
+    display: none; 
+    }
+    
     
     .inhalt {
     padding: 20px;
