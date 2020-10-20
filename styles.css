@@ -355,7 +355,7 @@ background-size: cover;
 
 
 .grid-bild-background-5 {
- background:url('https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/grid_5.jpg') no-repeat center;
+ background:url('https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/gallati/gallati_preview.jpg') no-repeat center;
     background-size: cover;
     height: 500px;
     opacity: 0.3;
@@ -5741,7 +5741,7 @@ display: block;
 }
 
 .grid-bild-background-5 {
- background:url('https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/grid_5.jpg') no-repeat center;
+ background:url('https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/gallati/gallati_preview.jpg') no-repeat center;
     background-size: cover;
     opacity: 1;
     height: 300px;
