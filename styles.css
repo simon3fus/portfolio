@@ -1,14 +1,52 @@
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(186, 186, 186); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #03CCA8; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #057964; 
+}
+
+
+
+
+
+
+
 
 /* selektiosfarbe */
 
 ::selection {
-    background: #000;
-    color: #03CCA8;
+    background: #03CCA8;
+    color: #454444;
 }
 ::-moz-selection {
-    background: #000;
-    color: #03CCA8;
+    background: #03CCA8;
+    color: #454444;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -118,9 +156,16 @@ a:hover {
     
 
 .header .logo {
-    width: 175px;
+    width: 174px;
     padding-left: 6px;
 }
+
+.header .logo img {
+    width: 190px;
+}
+
+
+
 
 /* menu */
 
@@ -560,6 +605,7 @@ width: 100%;
 
     
 .black {
+    position: relative;
     overflow: auto;
     height: auto;
     z-index: 0;
@@ -664,6 +710,9 @@ width: 100%;
 }
  
 .zum {
+    position: absolute;
+    z-index: 5;
+    width: 100%;
     padding-top: 60px;
     padding-bottom: 100px;
     background-color: #03CCA8;
