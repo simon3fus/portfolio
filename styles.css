@@ -2,12 +2,12 @@
 
 /* width */
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 12px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(186, 186, 186); 
+  background: rgb(245, 245, 245); 
 }
  
 /* Handle */
@@ -726,6 +726,7 @@ width: 100%;
     text-decoration: underline;
 }
 
+
 .keyvisual {
     height: fill;
     max-width: 1200px;
@@ -875,33 +876,58 @@ object-fit: contain;
     padding-bottom: 80px;
 }
 
+
+
+
+
 .next {
-    background-color: #454444;
+    margin-top: 150px;
+    background-color: rgb(240, 240, 240);
     height: 350px;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    padding-left: 50px;
-    padding-right: 50px;
+/*     padding-top: 150px;
+     */    padding-bottom: 150px;
+/*     padding-left: 70px;
+     */    padding-right: 70px;
+    position: relative;
 }
 .next h1 {
-    color: #03CCA8;
+    color: #454444;
     margin-top: 0px;
+    font-size: 40px;
+}
+
+ 
+
+.nextr {
+    padding-top: 150px;
+    padding-left: 70px;
+    width: auto;
+    position: absolute;
+    right: 70px;
+    z-index: 2;
 }
 
 .nextl {
-    float: left;
+    padding-top: 150px;
+    padding-right: 70px;
     width: auto;
+    position: absolute;
+    left: 70px;
+    z-index: 2;
 }
 
-.nextl h1 {
-        font-size: 50px;
-    }
-    
+.nextbild {
+    position: absolute;
+    right: 0;
 
-.nextr {
-    float: right;
-    width: auto;
-}
+} 
+
+.nextbild img {
+   height: 350px;
+    opacity: 0.3;
+    display: block; 
+} 
+
 
 .mailrund {
     width: 200px;
@@ -5506,31 +5532,56 @@ home SVG animation Mobile
 
 
 /* NEXT  */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     
         .next {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        height: 570px;
+    }
+    
+ 
+    .nextbild {
+        top: 0;
+    }
+    
+    .nextbild img {
+        padding: 20px;
         height: 350px;
+        width: 100%;
+        object-fit: cover;
+
+    }
+    
+    .nextr {
+    padding-top: 150px;
+    padding-left: 0px;
+    width: 100%;
+    position: absolute;
+    right:0;
+    z-index: 2;
+    }
+    
+    .nextr h1 {
+        text-align: center;
     }
     
     .nextl {
+  padding-top: 0px;
+    padding-right: 0px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    z-index: 2;
+        bottom: 100px;
+    
+    }
+    
+        .nextl h1 {
         text-align: center;
-        margin: auto;
-        width: 100%;
-    }
-    
-    .nextl h1 {
-        font-size: 20px;
+            font-size: 25px;
     }
     
     
-    .nextr {
-        text-align: center;
-        margin: auto;
-        width: 100%;
-        padding-bottom: 150px;
-    }
+    
     
       .column {
     width: 100%;
