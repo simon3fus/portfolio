@@ -842,6 +842,15 @@ width: 100%;
 }
 
 
+
+.bildbeschreib {
+    width: 550px;
+    padding-top: 60px;
+    margin-bottom: -30px;
+    text-align: left;
+}
+
+
 .bilderline {
     margin: auto;
     background: #ffffff;
@@ -856,8 +865,8 @@ object-fit: contain;
     max-width: 1200px;
     padding-top: 70px;
     padding-bottom: 70px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -5531,65 +5540,6 @@ home SVG animation Mobile
 
 
 
-/* NEXT  */
-@media (max-width: 1000px) {
-    
-        .next {
-        height: 570px;
-    }
-    
- 
-    .nextbild {
-        top: 0;
-    }
-    
-    .nextbild img {
-        padding: 20px;
-        height: 350px;
-        width: 100%;
-        object-fit: cover;
-
-    }
-    
-    .nextr {
-    padding-top: 150px;
-    padding-left: 0px;
-    width: 100%;
-    position: absolute;
-    right:0;
-    z-index: 2;
-    }
-    
-    .nextr h1 {
-        text-align: center;
-    }
-    
-    .nextl {
-  padding-top: 0px;
-    padding-right: 0px;
-    width: 100%;
-    position: absolute;
-    left: 0px;
-    z-index: 2;
-        bottom: 100px;
-    
-    }
-    
-        .nextl h1 {
-        text-align: center;
-            font-size: 25px;
-    }
-    
-    
-    
-    
-      .column {
-    width: 100%;
-         padding: 20px;
-         margin-bottom: 80px;
-    
-}
-
 
 
 @media (max-width: 768px) {
@@ -5674,7 +5624,7 @@ display: block;
         font-size: 20px;
     }
 
-  }
+ 
     .column left {
         height: 600px;
     }
@@ -5699,6 +5649,15 @@ display: block;
         padding-top: 0px;
     }
     
+    
+        .bildbeschreib {
+    width: 100%;
+    margin-bottom: -60px;
+    text-align: left;
+        padding: 20px;
+}
+    
+    
     .bilderlineimg {
         padding: 0px;
         padding-top: 50px;
@@ -5713,6 +5672,8 @@ display: block;
         padding-bottom: 50px;
     
     }    
+    
+
     
     
 .column {
@@ -5885,6 +5846,72 @@ display: block;
 
 }
 
+
+
+
+
+
+/* NEXT  */
+@media (max-width: 1000px) {
+    
+        .next {
+        height: 570px;
+    }
+    
+ 
+    .nextbild {
+        top: 0;
+    }
+    
+    .nextbild img {
+        padding: 20px;
+        height: 350px;
+        width: 100%;
+        object-fit: cover;
+
+    }
+    
+    .nextr {
+    padding-top: 150px;
+    padding-left: 0px;
+    width: 100%;
+    position: absolute;
+    right:0;
+    z-index: 2;
+    }
+    
+    .nextr h1 {
+        text-align: center;
+    }
+    
+    .nextl {
+  padding-top: 0px;
+    padding-right: 0px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    z-index: 2;
+        bottom: 100px;
+    
+    }
+    
+        .nextl h1 {
+        text-align: center;
+            font-size: 25px;
+    }
+    
+    
+    
+    
+      .column {
+    width: 100%;
+         padding: 20px;
+         margin-bottom: 80px;
+    
+}
+
+
+}
 
 /* Das macht den Header Desktop */
 
