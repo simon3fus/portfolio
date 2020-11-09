@@ -619,10 +619,17 @@ margin-left: -100px;
     background-color: #454444;
     padding: 50px;
     padding-bottom: 200px;
-    padding-top: 1px;
+    padding-top: 1px;   
+    
+    
+/*    
     background-image: url(https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/kleis_trans.svg); background-repeat: no-repeat;
-      background-attachment: fixed;
-    background-position: 50% 90%;
+    background-attachment: fixed;
+    background-position: 50% 90%; 
+    
+*/
+    
+    
 }
 
 
@@ -5698,10 +5705,15 @@ display: block;
     
     
     
+    .flag {
+        height: 100vh;
+    }
     
     
-    
-    
+    .flag img {
+        width: 130%;
+        margin-left: 50px
+    }
     
     
     
