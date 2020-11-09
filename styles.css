@@ -587,6 +587,7 @@ width: 100%;
 
 .flag {
 margin-left: -100px;
+    overflow: hidden;
 
 }
 
@@ -933,6 +934,8 @@ object-fit: contain;
 }
 
 
+
+
 .portfoliorund {
     width: 200px;
     height: 200px;
@@ -945,6 +948,11 @@ object-fit: contain;
 }
 
 .portfoliorund img {
+    
+            animation: fadein 20s;
+    -moz-animation: fadein 20s; /* Firefox */
+    -webkit-animation: fadein 20s; /* Safari and Chrome */
+    -o-animation: fadein 20s; /* Opera */
     width: px;
 }
 
@@ -5707,10 +5715,12 @@ display: block;
     
     .flag {
         height: 100vh;
+        overflow: hidden;
     }
     
     
     .flag img {
+        overflow: hidden;
         width: 130%;
         margin-left: 50px
     }
