@@ -2,12 +2,12 @@
 
 /* width */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 7px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(245, 245, 245); 
+  background: rgb(186, 186, 186); 
 }
  
 /* Handle */
@@ -158,10 +158,6 @@ a:hover {
 .header .logo {
     width: 174px;
     padding-left: 6px;
-}
-
-.header .logo img {
-    width: 190px;
 }
 
 
@@ -589,6 +585,17 @@ width: 100%;
     height: 100%;
 }
 
+.flag {
+margin-left: -100px;
+
+}
+
+.flag img {
+    height: 100vh;
+    width: 150%;
+    overflow: hidden;
+}
+
 
 @media (min-width: 2000px) { 
 .blacktitel {font-size: 300px;}}
@@ -726,7 +733,6 @@ width: 100%;
     text-decoration: underline;
 }
 
-
 .keyvisual {
     height: fill;
     max-width: 1200px;
@@ -794,28 +800,6 @@ width: 100%;
     color:  #4d4d4d;
 }
 
-
-.comment-disapinity {
-        width: 100%;
-        float: left;
-       padding-left: 30px;
-       padding-top: 30px;
-       padding-bottom: 30px;
-       padding-right: 30px;
-       background-color: #f0f0f0;
-       margin-top: 0px;
-    margin-bottom: 45px;
-    }
-
-.comment-disapinity h4 {
-    color:  #4d4d4d;
-    font-weight: 400;
-    line-height: 1.4;
-}
-
-
-
-
 .preview {
     max-width: 800px;
     margin: auto;
@@ -864,15 +848,6 @@ width: 100%;
 }
 
 
-
-.bildbeschreib {
-    width: 550px;
-    padding-top: 60px;
-    margin-bottom: -30px;
-    text-align: left;
-}
-
-
 .bilderline {
     margin: auto;
     background: #ffffff;
@@ -887,8 +862,8 @@ object-fit: contain;
     max-width: 1200px;
     padding-top: 70px;
     padding-bottom: 70px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
@@ -907,58 +882,33 @@ object-fit: contain;
     padding-bottom: 80px;
 }
 
-
-
-
-
 .next {
-    margin-top: 150px;
-    background-color: rgb(240, 240, 240);
+    background-color: #454444;
     height: 350px;
-/*     padding-top: 150px;
-     */    padding-bottom: 150px;
-/*     padding-left: 70px;
-     */    padding-right: 70px;
-    position: relative;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .next h1 {
-    color: #454444;
+    color: #03CCA8;
     margin-top: 0px;
-    font-size: 40px;
-}
-
- 
-
-.nextr {
-    padding-top: 150px;
-    padding-left: 70px;
-    width: auto;
-    position: absolute;
-    right: 70px;
-    z-index: 2;
 }
 
 .nextl {
-    padding-top: 150px;
-    padding-right: 70px;
+    float: left;
     width: auto;
-    position: absolute;
-    left: 70px;
-    z-index: 2;
 }
 
-.nextbild {
-    position: absolute;
-    right: 0;
+.nextl h1 {
+        font-size: 50px;
+    }
+    
 
-} 
-
-.nextbild img {
-   height: 350px;
-    opacity: 0.3;
-    display: block; 
-} 
-
+.nextr {
+    float: right;
+    width: auto;
+}
 
 .mailrund {
     width: 200px;
@@ -5562,6 +5512,40 @@ home SVG animation Mobile
 
 
 
+/* NEXT  */
+@media (max-width: 900px) {
+    
+        .next {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        height: 350px;
+    }
+    
+    .nextl {
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+    
+    .nextl h1 {
+        font-size: 20px;
+    }
+    
+    
+    .nextr {
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        padding-bottom: 150px;
+    }
+    
+      .column {
+    width: 100%;
+         padding: 20px;
+         margin-bottom: 80px;
+    
+}
+
 
 
 @media (max-width: 768px) {
@@ -5646,7 +5630,7 @@ display: block;
         font-size: 20px;
     }
 
- 
+  }
     .column left {
         height: 600px;
     }
@@ -5671,15 +5655,6 @@ display: block;
         padding-top: 0px;
     }
     
-    
-        .bildbeschreib {
-    width: 100%;
-    margin-bottom: -60px;
-    text-align: left;
-        padding: 20px;
-}
-    
-    
     .bilderlineimg {
         padding: 0px;
         padding-top: 50px;
@@ -5694,8 +5669,6 @@ display: block;
         padding-bottom: 50px;
     
     }    
-    
-
     
     
 .column {
@@ -5868,72 +5841,6 @@ display: block;
 
 }
 
-
-
-
-
-
-/* NEXT  */
-@media (max-width: 1000px) {
-    
-        .next {
-        height: 570px;
-    }
-    
- 
-    .nextbild {
-        top: 0;
-    }
-    
-    .nextbild img {
-        padding: 20px;
-        height: 350px;
-        width: 100%;
-        object-fit: cover;
-
-    }
-    
-    .nextr {
-    padding-top: 150px;
-    padding-left: 0px;
-    width: 100%;
-    position: absolute;
-    right:0;
-    z-index: 2;
-    }
-    
-    .nextr h1 {
-        text-align: center;
-    }
-    
-    .nextl {
-  padding-top: 0px;
-    padding-right: 0px;
-    width: 100%;
-    position: absolute;
-    left: 0px;
-    z-index: 2;
-        bottom: 100px;
-    
-    }
-    
-        .nextl h1 {
-        text-align: center;
-            font-size: 25px;
-    }
-    
-    
-    
-    
-      .column {
-    width: 100%;
-         padding: 20px;
-         margin-bottom: 80px;
-    
-}
-
-
-}
 
 /* Das macht den Header Desktop */
 
