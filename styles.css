@@ -808,6 +808,27 @@ margin-left: -100px;
     color:  #4d4d4d;
 }
 
+.comment-disapinity {
+        width: 100%;
+        float: left;
+       padding-left: 30px;
+       padding-top: 30px;
+       padding-bottom: 30px;
+       padding-right: 30px;
+       background-color: #f0f0f0;
+       margin-top: 0px;
+    margin-bottom: 45px;
+    }
+
+.comment-disapinity h4 {
+    color:  #4d4d4d;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+
+
+
 .preview {
     max-width: 800px;
     margin: auto;
@@ -5557,39 +5578,64 @@ home SVG animation Mobile
 
 
 /* NEXT  */
-@media (max-width: 900px) {
-    
+@media (max-width: 1000px) {
+
         .next {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        height: 570px;
+    }
+
+
+    .nextbild {
+        top: 0;
+    }
+
+    .nextbild img {
+        padding: 20px;
         height: 350px;
-    }
-    
-    .nextl {
-        text-align: center;
-        margin: auto;
         width: 100%;
+        object-fit: cover;
+
     }
-    
-    .nextl h1 {
-        font-size: 20px;
-    }
-    
-    
+
     .nextr {
-        text-align: center;
-        margin: auto;
-        width: 100%;
-        padding-bottom: 150px;
+    padding-top: 150px;
+    padding-left: 0px;
+    width: 100%;
+    position: absolute;
+    right:0;
+    z-index: 2;
     }
-    
+
+    .nextr h1 {
+        text-align: center;
+    }
+
+    .nextl {
+  padding-top: 0px;
+    padding-right: 0px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    z-index: 2;
+        bottom: 100px;
+
+    }
+
+        .nextl h1 {
+        text-align: center;
+            font-size: 25px;
+    }
+
+
+
+
       .column {
     width: 100%;
          padding: 20px;
          margin-bottom: 80px;
-    
-}
 
+}
+}
 
 
 @media (max-width: 768px) {
