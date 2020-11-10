@@ -855,6 +855,13 @@ margin-left: -100px;
     width: 100%;
 }
 
+.bildbeschreib {
+    width: 550px;
+    padding-top: 100px;
+    margin-bottom: -30px;
+    text-align: left;
+}
+
 
 .bilderline {
     margin: auto;
@@ -5691,6 +5698,16 @@ display: block;
     .pass {
         padding-top: 0px;
     }
+    
+    
+            .bildbeschreib {
+    width: 100%;
+    margin-bottom: -60px;
+    text-align: left;
+        padding: 20px;
+}
+    
+    
     
     .bilderlineimg {
         padding: 0px;
