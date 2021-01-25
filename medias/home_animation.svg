@@ -1,0 +1,16 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M273 977.377L1604.23 24L1658 98.4995V1040H366.447L273 977.377Z" fill="url(#paint0_radial)"/>
+<path id="pfeil-home" d="M941.307 750.519L862.072 396.12L1174.51 580.318L1076.37 608.76L1145.25 703.116L1067.36 760L998.481 664.29L941.307 750.519ZM997.581 612.823L1074.11 718.014L1103.83 696.344L1027.74 591.604L1099.78 571.288L906.191 456.616L955.263 676.028L997.581 612.823Z" fill="#2F2F2F" fill-opacity="0.61"/>
+<path d="M813.833 389.545L830.003 364.545L781.656 333.097L765.486 358.097L813.833 389.545Z" fill="#2F2F2F" fill-opacity="0.61"/>
+<path d="M924.103 367.812L955.794 319.008L930.895 302.748L899.203 351.552L924.103 367.812Z" fill="#2F2F2F" fill-opacity="0.61"/>
+<path d="M820.978 524.09L853.32 475.717L828.64 459.124L796.298 507.497L820.978 524.09Z" fill="#2F2F2F" fill-opacity="0.61"/>
+<path d="M848.798 353.461L877.911 347.505L866.211 290L837.099 295.956L848.798 353.461Z" fill="#2F2F2F" fill-opacity="0.61"/>
+<path d="M941.637 415.24L999.404 403.34L993.426 374.155L935.659 386.054L941.637 415.24Z" fill="#2F2F2F" fill-opacity="0.61"/>
+<path d="M758.898 452.499L816.2 440.556L810.153 411.382L752.851 423.325L758.898 452.499Z" fill="#2F2F2F" fill-opacity="0.61"/>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(965.239 494.21) rotate(56.1014) scale(492.355 685.653)">
+<stop stop-color="#03CCA8" stop-opacity="0.36"/>
+<stop offset="1" stop-color="#454444" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
