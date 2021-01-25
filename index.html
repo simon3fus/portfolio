@@ -6,7 +6,7 @@
     
         
 _/_/    
-_/_/welcome to the shitshow
+_/_/
 _/_/
 
     
@@ -33,17 +33,26 @@ Schön, dass du hier rein schaust.
   <meta charset="utf-8">
   <title>Portfolio</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/index-aniamtion.css">
+
   <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/simon3fus/portfolio/master/medias/cursor.png"/>
-  <script src="https://unpkg.com/pts/dist/pts.min.js"></script>
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 </style>
     
- <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, minimal-ui" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, minimal-ui" />
 
- 
+
 
 </head>
+
+
+
+
+
+
+
 
 
  <header class="header">
@@ -62,28 +71,27 @@ Schön, dass du hier rein schaust.
 
 
 
+
+
+
+
+
+<section id="section">
+<div class="hero">
+
+<img src="/medias/home_animation.svg">
+<h1 id="headline">Digital <br>aus Leidenschaft</h1>
+
+</div>
+</section>
+<div class="slider-animation"></div>
+
+
+
+
+
+
 <div class="black">
-
-   
-   
-   
-   
-   
-   
-	<div id="pt"></div>
-  
-	<div id="pt-light"></div>  
-  
-  
-  
-  
-  
-   
-   
-
-
-
-
 
 <div class="pwhite">
 <h1>Neue Projekte, neue Skills</h1>
@@ -113,111 +121,9 @@ Auf dieser Seite kannst du mein Portfolio mit ausgewählten Projekten sowie mein
 
 
 
-
-    <script>
-
-
-      // Source code licensed under Apache License 2.0. 
-      // Copyright © 2017 William Ngan. (https://github.com/williamngan/pts)
-      
-      window.demoDescription = "Particles colliding with each other in space. Move the pointer to hit them like billiard balls.";
-      
-      Pts.quickStart( "#pt", "#454444" );
-      
-      //// Demo code starts (anonymous function wrapper is optional) ---
-      
-      (function() {
-      
-        var world;
-      
-        space.add( {
-      
-        start: (bound, space) => {
-      
-          // Create world and 100 random points
-          world = new World( space.innerBound, 1, 0 );
-          let pts = Create.distributeRandom( space.innerBound, 100 );
-          
-          // Create particles and hit them with a random impulse
-          for (let i=0, len=pts.length; i<len; i++) {
-          let p = new Particle( pts[i] ).size( (i===0) ? 60 : 3+Math.random()*space.size.x/50);
-          p.hit( Num.randomRange(-50,50), Num.randomRange(-25, 25) );
-          world.add( p );
-          }
-      
-          world.particle( 0 ).lock = true; // lock it to move it by pointer later on
-      
-        },
-      
-      
-        animate: (time, ftime) => {
-          world.drawParticles( (p, i) => {
-          let color = (i===0) ? "#2e2e2e" : ["#075e4f", "#213d38", "#00ba99", "#5b8f86"][i%4];
-          form.fillOnly( color ).point( p, p.radius, "circle" ) 
-          });
-      
-          world.update( ftime );
-        },
-      
-      
-        action:( type, px, py) => {
-          if (type == "move") {
-          world.particle( 0 ).position = new Pt(px, py);
-          }
-        },
-      
-        resize: (bound, evt) => {
-          if (world) world.bound = space.innerBound;
-        }
-        });
-        
-        space.bindMouse().bindTouch();
-        space.play();
-      
-      })();
-      
-      
-        </script>
-
-
-
-
-<script>
-            var character = 2;
-            var msg = "✌🏻✌🏻✌🏻simon3fus✌🏻✌🏻✌🏻";
-            var currentTitle = document.title;
-            function counter() {
-              counter.timer = setInterval(function() {
-                document.title = msg.substring(character, msg.length) + msg.substring(0, character);
-                character++;
-                if( character > message.length){
-                  character = 0;
-                }
-              }, 500);
-            }
-            function stop() {
-              clearInterval(counter.timer);
-            }
-            window.onblur = function() {
-              counter();
-            };
-            window.onfocus = function() {
-              stop();
-              document.title = currentTitle;
-            };
-			</script>
-			
-
-
-
-
-
-
-
-
-
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js" integrity="sha512-lJDBw/vKlGO8aIZB8/6CY4lV+EMAL3qzViHid6wXjH/uDrqUl+uvfCROHXAEL0T/bgdAQHSuE68vRlcFHUdrUw==" crossorigin="anonymous"></script>
+    <script src="/app.js"></script>
 
 </body>
 </html>

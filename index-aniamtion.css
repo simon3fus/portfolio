@@ -1,0 +1,56 @@
+/* Animation auf der Home */
+
+.slider-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110vh;
+  background-color: #454444;
+  z-index: -5;
+}
+
+#section {
+  display: flex;
+  height: 99vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+}
+
+.hero img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero h1 {
+  color: #03cca8;
+  overflow: hidden;
+}
+
+#headline {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-size: 90px;
+  overflow: hidden;
+}
+
+#pfeil-home:hover {
+  fill: #ce1515;
+}
+
+@media (max-width: 768px) {
+  #headline {
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    padding-right: 20px;
+    font-size: 40px;
+  }
+}
